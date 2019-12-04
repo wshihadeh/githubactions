@@ -1,6 +1,1 @@
-# githubactions
-test githubactions
-*
-
-*
-
+*/n
