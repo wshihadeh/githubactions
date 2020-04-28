@@ -1,7 +1,7 @@
 name: CI-MASTER
 
 on:
- pull_request:
+  pull_request:
     branches:
       - master
   push:
