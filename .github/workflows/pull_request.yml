@@ -45,7 +45,7 @@ jobs:
         echo test, and deploy your project.
 
     - name: Slack notification Success
-      if: ${{ success() }}
+      if: ${{ success() && github.ref == 'refs/heads/master'}}
       env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
       uses: cemkiy/action-slacker@master
