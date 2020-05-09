@@ -12,9 +12,16 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Run a multi-line script
+      env:
+        REPO_OWNER: ${{ github.event.repository.owner.login }}
+        RELESE_ACTOR: ${{ github.actor }}
+        RELESE_AUTHER: ${{ release.author.login }}
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
         echo $GITHUB_REF
+        echo $REPO_OWNER
+        echo $RELESE_ACTOR
+        echo $RELESE_AUTHER
         cat README.md
 
