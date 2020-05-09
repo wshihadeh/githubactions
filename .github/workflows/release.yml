@@ -15,7 +15,7 @@ jobs:
       env:
         REPO_OWNER: ${{ github.event.repository.owner.login }}
         RELESE_ACTOR: ${{ github.actor }}
-        RELESE_AUTHER: ${{ release.author.login }}
+        RELESE_AUTHER: ${{ github.release.author.login }}
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
