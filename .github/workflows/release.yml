@@ -8,6 +8,7 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    if: github.actor == 'wshihadeh' || github.actor == 'wshihadeh'
 
     steps:
     - uses: actions/checkout@v1
