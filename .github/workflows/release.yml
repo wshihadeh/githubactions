@@ -2,7 +2,7 @@ name: CI-Release
 
 on:
   release:
-    types: [published]
+    types: [published, edited]
 
 jobs:
   build:
