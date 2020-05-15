@@ -1,4 +1,4 @@
-name: Github Action Test
+name: Github Action Test Me
 author: Al-waleed Shihadeh <wshihadeh.dev@gmail.com>
 description: A GitHub Action that supports tests on github 
 inputs:
