@@ -1,6 +1,6 @@
-name: Docker TEST Deployment
+name: Github Action Test
 author: Al-waleed Shihadeh <wshihadeh.dev@gmail.com>
-description: A GitHub Action that supports docker-compose and Docker Swarm deployments
+description: A GitHub Action that supports tests on github 
 inputs:
   remote_docker_host:
     description: Remote Docker host ie (user@host)
